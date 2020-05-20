@@ -11,7 +11,8 @@ Personal Learning Notes by Studing Deep Learning
 # 2. Neural Networks and Deep Learning
 ## 2.1 Logistic Regression
 Logistic Regress逻辑判断“真”和“假”，输出即不是“1”就是“0”。
-每一个所谓的神经元neural都有一个computation，即如何对输入进行处理，通常可以用一个线性表达，还有Computation: A = W * X + B, 这里W和X是矩阵叉乘，通常情况下输入矩阵X的纬度为(n_x,m),n_x是一个样本sample中具体输入单项的个数，m则是总的样本sample数量。W的维度
+每一层的神经网络每一个所谓的神经元neural都有一个computation，即如何对输入进行处理，通常可以用一个线性表达，还有一个activation，即如何对处理后的输入做输出，这个激活函数在logistic regression中通常采用segmoid函数。
+Computation: A = W * X + B, 这里W和X是矩阵叉乘，通常情况下输入矩阵X的纬度为(n_x,m),n_x是一个样本sample中具体输入单项的个数，m则是总的样本sample数量。W的纬度为这一层
 
 # 3. Improving Deep Neutral Networks: Hyperparameter tuning, Regularization and Optimization
 
